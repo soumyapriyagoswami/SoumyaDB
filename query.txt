@@ -1,0 +1,18 @@
+gcc -o dbms your_dbms.c -lm
+
+CREATE TABLE students (id INT, name VARCHAR, grade FLOAT, dept VARCHAR)
+CREATE TABLE employees (id INT, name VARCHAR, salary FLOAT, position VARCHAR)
+SHOW TABLES
+DESCRIBE students
+DESCRIBE employees
+INSERT INTO students VALUES (101, 'Alice', 95.5, 'CS')
+INSERT INTO employees VALUES (1, 'Bob', 75000, 'Manager')
+SELECT * FROM students
+SELECT * FROM employees
+INSERT INTO students VALUES (101, 'Soumyapriya Goswami', 8.5, 'Information Technology');
+SELECT * FROM students WHERE id = 101;
+SELECT * FROM students WHERE id BETWEEN 100 AND 200;
+UPDATE students SET name = 'Alice Jones', grade = 90.0, dept = 'CS' WHERE id = 101;
+SELECT * FROM students WHERE id = 101;
+DELETE FROM students WHERE id = 101;
+EXIT
