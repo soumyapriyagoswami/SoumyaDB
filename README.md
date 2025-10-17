@@ -1,10 +1,10 @@
-# 🌐 SoumyaDB — Your Lightweight, Fast & Persistent C-based DBMS 🛠️
+<h1 align="center">🌈 <b>🌐 SoumyaDB — Your Lightweight, Fast & Persistent C-based DBMS</b></h1>
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/your-username/SoumyaDB?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/your-username/SoumyaDB?color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/your-username/SoumyaDB?color=green)
-![GitHub license](https://img.shields.io/github/license/your-username/SoumyaDB?color=orange)
-![Open Source Love](https://img.shields.io/badge/Open%20Source-❤️-red)
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-C99-orange.svg">
+  <img src="https://img.shields.io/badge/License-BSD%202--Clause-blue.svg">
+  <img src="https://img.shields.io/badge/Platform-Linux%20|%20macOS%20|%20Windows-green.svg">
+</p>
 
 **SoumyaDB** is a lightweight, file-based, multi-table **Database Management System (DBMS)** built in **C**, designed to combine **speed, simplicity, and persistence**. Featuring **B+ tree indexing** for fast record access and SQL-like query support, SoumyaDB is perfect for **learning, research prototypes, and embedded systems**.
 
